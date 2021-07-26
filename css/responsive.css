@@ -1,0 +1,73 @@
+/* Tablet and Mobile */
+@media (max-width:63.9375em ) {
+    .infor-required{
+        line-height: 2;
+    }
+    .input-place .form-control{
+        padding: 15px;
+    }
+    .submit-btn {
+        padding: 12px 20px;
+    }
+    .social-list a{
+        font-size: 30px;
+        padding: 0 7px;
+    }
+    .copyright{
+        font-size: 22px;
+        padding-top: 7px;
+    }
+
+
+/* mOBILE */
+@media (max-width:46.1875em ) {
+    #nav{
+        display: block;
+    }
+    #nav  li{
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav .subnav{
+        
+        position: initial;
+       
+        background-color: #333;
+    }
+    #nav .subnav li{
+        padding: 8px 41px;
+        
+        
+    }
+    #nav .subnav a{
+        color: #fff;
+        
+    }
+    .infor-required{
+        padding-left: 11px;
+    }
+    #header{
+        overflow: hidden;
+    }
+
+    #header .ti-search{
+        display: none;
+    }
+
+    #header .mobile-menu{
+        display: block;
+    }
+    .s-col-full{
+        width: 100%;
+    }
+    .s-full-width{
+        width: 100%;
+    }
+
+    #content .member-img{
+        width: 60%;
+    }
+
+}
